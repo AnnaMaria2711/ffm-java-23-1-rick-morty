@@ -2,7 +2,7 @@
 function HomeWillkommen(){
    return <div>
         Willkommen zu meiner Webseite:)!!!
-    </div>
+    </div>;
 }
 
 export default HomeWillkommen
