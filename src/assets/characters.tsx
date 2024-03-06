@@ -1,9 +1,13 @@
 
 import CharacterGallery from "../CharacterGallery.tsx";
-import {charactersResponse} from "../characters.ts";
+import { CharacterTYPE} from "../characters.ts";
 
-function Characters(){
-    return <CharacterGallery characters={charactersResponse.results}/>
+export type CharacterProps = {
+    characters : CharacterTYPE[]
+}
+function Characters(props: CharacterProps){
+
+    return <CharacterGallery characters={props.characters}/>
 
 }
 
