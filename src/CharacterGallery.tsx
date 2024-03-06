@@ -1,8 +1,8 @@
-import {Character} from "./characters.ts";
+import {CharacterTYPE} from "./characters.ts";
 import CharacterCard from "./CharacterCard.tsx";
 
 type CharacterGalleryProps = {
-    characters: Character[]
+    characters: CharacterTYPE[]
 }
 
 export default function CharacterGallery(props: CharacterGalleryProps) {
